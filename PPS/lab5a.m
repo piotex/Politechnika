@@ -1,0 +1,13 @@
+clear all;
+close all;
+N=5000;
+fp=2000;
+t=0:1/fp:(N-1)/fp;
+x=chirp(t,100,2.5,900,'q');
+subplot(221);
+plot(t,x);
+xlabel('czas');
+ylabel('x');
+subplot(222);
+spectrogram(x,512,128,512,fp);
+set(gcf,'Position',[50 50 1200 700]);
