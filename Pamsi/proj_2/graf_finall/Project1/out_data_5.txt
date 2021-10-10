@@ -1,0 +1,5 @@
+Wierzcholek nm: 0 _ droga[wartosc]: 0 TRASA: 0 
+Wierzcholek nm: 1 _ droga[wartosc]: 12 TRASA: 0 2 1 
+Wierzcholek nm: 2 _ droga[wartosc]: 9 TRASA: 0 2 
+Wierzcholek nm: 3 _ droga[wartosc]: 10 TRASA: 0 3 
+Wierzcholek nm: 4 _ droga[wartosc]: 12 TRASA: 0 3 4 
