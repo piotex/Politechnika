@@ -1,0 +1,21 @@
+Circuit: * C:\Users\pkubo\OneDrive\Dokumenty\LTspiceXVII\lab8\test_prof.asc
+
+Per .tran options, skipping operating point for transient analysis.
+
+Date: Mon Apr 26 03:50:25 2021
+Total elapsed time: 5.413 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 1152240
+traniter = 1152240
+tranpoints = 327440
+accept = 235525
+rejected = 91915
+matrix size = 40
+fillins = 25
+solver = Normal
+Matrix Compiler1: 2.48 KB object code size  0.5/0.2/[0.1]
+Matrix Compiler2: 3.26 KB object code size  0.2/0.3/[0.2]
+

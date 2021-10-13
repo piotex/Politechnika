@@ -1,0 +1,22 @@
+Circuit: * C:\Users\pkubo\OneDrive\Dokumenty\LTspiceXVII\lab8\lab_p555.asc
+
+WARNING: Less than two connections to node NC_01.  This node is used by V2.
+Direct Newton iteration for .op point succeeded.
+
+Date: Sun May 23 13:38:54 2021
+Total elapsed time: 3.356 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 1664840
+traniter = 1664832
+tranpoints = 513084
+accept = 430906
+rejected = 82178
+matrix size = 19
+fillins = 0
+solver = Normal
+Matrix Compiler1: 472 bytes object code size  0.2/0.1/[0.1]
+Matrix Compiler2: off  [0.1]/0.2/0.2
+

@@ -1,0 +1,13 @@
+* C:\Users\pkubo\OneDrive\Dokumenty\LTspiceXVII\lab8\EwA - schemat wzmacniacza.asc
+V1 N002 0 PULSE(0 5 0 1n 1n 10m 20m) AC 5
+V2 wy 0 12
+R_g we N002 1k
+R_E N003 0 1
+Q1 N001 we N003 0 BC547C
+R_C wy N001 1000
+.model NPN NPN
+.model PNP PNP
+.lib C:\Users\pkubo\OneDrive\Dokumenty\LTspiceXVII\lib\cmp\standard.bjt
+.tran 0 100m 0 1m
+.backanno
+.end
