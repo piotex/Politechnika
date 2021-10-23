@@ -19,11 +19,5 @@ for i = 1:4
     grid on;
     title(['K(s) = ', sys_txt], 'FontSize', 14, 'interpreter', 'latex');
     xlabel('Czas [s]');
-    ylabel('Amplituda'); z
-    %if i==3 
-    %    hold on;
-    %    plot(t, 0.09982*exp(-0.9785*t)+0.09966 );
-    %end
-
+    ylabel('Amplituda');
 end
-
