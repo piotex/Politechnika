@@ -1,0 +1,54 @@
+
+#include <avr/io.h>
+#include <stdint.h>                     // needed for uint8_t
+
+#include <avr/interrupt.h>
+
+
+#define FOSC 8000000                       // Clock Speed
+#define BAUD 9600
+#define MYUBRR FOSC/16/BAUD -1
+
+
+volatile char ReceivedChar;
+volatile char rx_byte;
+
+int main( void )
+{
+    /*Set baud rate */
+    UBRRH = (MYUBRR >> 8);
+    UBRRL = MYUBRR;
+
+    UCSRB |= (1 << RXEN) | (1 << TXEN);      // Enable receiver and transmitter
+    UCSRB |= (1 << RXCIE);                   // Enable the receiver interrupt
+    UCSRC |= (1 << URSEL) |(1 << UCSZ1) | (1 << UCSZ0);    // Set frame: 8data, 1 stp
+
+
+                DDRB = 0xff;
+    sei();
+
+
+    while(1)
+    {
+     if (!(UCSRA & (1 << RXC))) {		// data received?
+			rx_byte = UDR;			// get the byte
+			switch (rx_byte) {
+				case 'a':
+					PORTB = 0xff;	// switch LED on
+				break;
+
+				case 'b':
+					PORTB = 0x00;	// switch LED off
+				break;
+			}
+        }
+    }
+
+}
+
+
+ISR (USART_RXC_vect)
+{
+    ReceivedChar = UDR;                     // Read data from the RX buffer
+    UDR = ReceivedChar;                     // Write the data to the TX buffer
+}
