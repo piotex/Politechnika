@@ -7,7 +7,7 @@ a=0.8;
 b=4;
 
 K = (1/(s^2+a*s+b));
-sys_txt = sprintf('$\\frac{1}{s^2 %+.ds %+.d}$', a,b);
+sys_txt = sprintf('$\\frac{1}{s^2 + %.1fs + %.1f}$', a,b);
     
 figure(1);
 [y,t] = step(K);
