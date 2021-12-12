@@ -1,0 +1,5 @@
+X001
+Zagadnienie ograniczonego bufora dotyczy przesyłania przez bufor większej ilości danych niż wynosi jego pojemność
+TAK
+NIE
+BRAK ODPOWIEDZI

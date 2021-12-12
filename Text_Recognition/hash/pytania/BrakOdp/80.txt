@@ -1,0 +1,5 @@
+X001
+Dane są zawsze odczytywane z pamięci wspólnej w tej samej kolejności, w jakiej zostały zapisane
+TAK
+NIE
+BRAK ODPOWIEDZI

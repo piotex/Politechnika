@@ -1,0 +1,5 @@
+X100
+Potoki są modelem komunikacji międzyprocesowej jednokierunkowej typu jeden-do-jednego.
+TAK
+NIE
+BRAK ODPOWIEDZI

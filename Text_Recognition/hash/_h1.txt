@@ -1,0 +1,434 @@
+Wywołania systemowe stanowią zestaw procedur systemu operacyjnego do realizacji specjalnych usług systemowych
+P
+Wielozadaniowość jest mechanizmem, którego realizacja możliwa jest jedynie w systemach wieloprocesorowych lub wielordzeniowych.
+F
+Programy aplikacyjne wykonują się normalnie w trybie użytkownika i mogą przejść do trybu jądra w ramach funkcji systemowych.
+P
+System plików stanowi warstwę abstrakcji, za pomocą której system operacyjny umożliwia programom dostęp do przechowywania danych na dysku.
+P
+Rolą systemu operacyjnego jest zarządzanie przydziałem zasobów dla aplikacji
+P
+W skład jądra systemu operacyjnego wchodzą sterowniki urządzeń i moduły realizujące wywołania systemowe. 
+?
+Wielozadaniowość polega na jednoczesnym wykonywaniu wszystkich programów załadowanych do pamięci operacyjnej.
+F
+System operacyjny musi zabezpieczać się przed niepoprawnym działaniem innych systemów operacyjnych
+F
+Rolą powłoki (shell) jest ochrona jądra przed niepożądanym zachowaniem programów aplikacyjnych.
+F
+Proces może zakończyć pracę swojego rodzica wysyłając mu sygnał.   
+P
+Procesy tworzone są w systemach operacyjnych w celu zwiększenia efektywności obliczeń.
+?
+Stan uśpienia procesu oznacza oczekiwanie na wykonanie na procesorze.
+F 
+Standardową reakcją na otrzymanie sygnału jest śmierć procesu (dla większości typów sygnałów).
+P 
+Środowisko procesu w systemie Unix to jest zbiór innych procesów, z którymi dany proces się komunikuje.
+F
+Wszystkie procesy w systemie Unix tworzone są przez klonowanie funkcją fork (z wyjątkiem procesu init).
+P 
+Zasoby w systemie Unix istnieją w celu zwiększenia wydajności wykonywania procesów.
+?
+Zwykły proces w systemie Unix otrzymuje priorytet, którego nie może sam zmienić.
+F
+Po odebraniu sygnału przez proces, może on kontynuować pracę (dla większości typów sygnałów).
+F 
+Priorytety w systemie operacyjnym istnieją w celu kontrolowania dostępu do zasobów systemu.
+F
+Proces uniksowy jest zawsze w stanie wykonywalnym albo uśpionym.
+F
+O ile proces sam się nie uśpi/zawiesi, będzie stale wykonywany na procesorze.
+F
+Proces utworzony przez klonowanie współdzieli z rodzicem wszystkie zasoby
+F
+System może DOWOLNIE(!) ustawić wartość statusu dowolnego procesu
+F
+Środowisko procesu w systemie unix to jest zbiór zmiennych z wartościami stworzonych dla procesu
+P
+Liczba nice umożliwia użytkownikom/ programistom zarządzanie przydziałem zasobów dla procesu. 
+?
+Proces utworzony przez klonowanie współdzieli z rodzicem założone wcześniej blokady plików
+F
+Proces może DOWOLNIE(!) ustawić wartość swojego statusu
+?
+Liczba nice umożliwia użytkownikom/programistom wpływanie na planowanie procesów w systemie
+P
+Zasoby w systemie unix istnieją w celu ułatwienia zarządzania elementami systemu w odniesieniu do procesów
+?
+Proces zombie jest procesem który nie może być usunięty przez system ze względu na niepoprawne zachowanie potomka
+F
+Proces w systemie unix może zadeklarować własna procedurę obsługi sygnału( dla większości typów sygnałów)
+P
+Proces utworzony przez klonowanie współdzieli z rodzicem wszystkie otwarte wcześniej pliki
+P
+Stan uśpienia procesu oznacza oczekiwanie na przydział pamięci
+F
+Procesy są tworzone w celu usprawnienia przydziału pamięci (quasi)równolegle wykonywanym zadaniom
+F
+Proces zombie jest procesem który nie może być usunięty przez system ze względu na niepoprawne zachowanie rodzica
+P
+Czas wirtualny procesu oznacza czas procesora zużyty na obliczenia
+?
+Procesy są tworzone w celu podziału obliczeń na wiele (quasi) równolegle wykonywanych zadań
+P
+Stan uśpienia procesu oznacza oczekiwanie na jakieś zasoby
+P
+Wszystkie procesy w systemie unix tworzone są przez połączenie dwóch procesów funkcja fork (z wyjątkiem procesu init)
+F
+Jedną z funkcji procesów w systemie unix jest zapewnienie wzajemnej izolacji wykonywanych w systemie zadań
+?
+Jedną z funkcji procesów w systemie unix jest umożliwienie przydziału zasobów wykonywanym w systemie zadaniom
+F
+Sygnały w systemie unix mogą być generowane zarówno przez sprzęt jak i oprogramowanie
+P
+Zmienna warunkowa służy do sygnalizacji spełnienia warunku oczekującym na niej wątkom lub procesom
+P
+Dane muszą być odczytywane z kolejki komunikatów POSIX w tej samej kolejności, w jakiej były zapisane.
+F
+Komunikacja przez pamięć wspólną jest możliwa za pomocą specjalnych operacji wejścia/wyjścia.
+F
+Komunikacja przez pamięć wspólną wymaga skopiowania segmentu pamięci wspólnej do przestrzeni adresowej procesów
+P
+Komunikacja przez pamięć wspólną wymaga zewnętrznej synchronizacji przesyłania.
+P
+Komunikacja przez potok wymaga zewnętrznej synchronizacji przesyłania.
+F
+Operacja inkrementacji semafora jest możliwa bez czekania.
+P
+Operacje I/O na potoku wykonuje się funkcjami open/read/write, jak dla plików.
+?
+Potoki są modelem komunikacji międzyprocesowej jednokierunkowej typu jeden-do-jednego.
+P
+Potoki są modelem komunikacji międzyprocesowej typu rozgłaszania, czyli jeden-do-wielu.
+F
+Próba odczytu z potoku zawsze zwraca natychmiast niepusty bufor danych, lub bufor pusty, gdy danych brak.
+F
+Próba odczytu z potoku zawsze zwraca natychmiast niepusty bufor danych, lub czeka, gdy danych brak.
+F
+Próba odczytu z pustego potoku zawsze zwraca pusty bufor danych.
+F
+Sumaryczna ilość danych przesyłanych przez potok jest nieograniczona.
+P
+Wielkość bufora danych odczytanych z potoku pojedynczym wywołaniem "read()" jest ograniczona wielkością potoku.
+P
+Muteks może być użyty do zabezpieczenia równolegle wykonywanych operacji przed wyścigami.
+P
+Przejście do stanu oczekiwania blokuje równoległość wątków użytkownika.
+P
+Każdy wątek, podobnie jak proces, ma swoją oddzielną przestrzeń adresową.
+F
+Wątki użytkownika mogą być wykonywane na wielu procesorach/rdzeniach tak samo, jak wątki jądra. 
+F
+Wątki użytkownika są z reguły szybsze niż wątki jądra.
+P
+Jeden proces może zawierać tylko jeden wątek lub proces może składać się z kilku wątków.
+P
+Barierę można wykorzystać do zablokowania wątkowi lub procesowi dostępu do jakiegoś zasobu.
+F
+Muteks jest mechanizmem synchronizacji bardziej ogólnym niż blokady zapisu i odczytu.
+F
+Muteks pozwala implementować bardziej drobnoziarnistą równoległość obliczeń niż blokady zapisu i odczytu.
+F
+Przejście do stanu oczekiwania blokuje równoległość wątków jądra.
+F
+Muteks jest zmienną logiczną, której obsługa musi być realizowana przez system operacyjny.
+P
+Muteks może być użyty do synchronizacji komunikacji przez zmienne/pamięć globalną.
+P
+Semafor można zastąpić muteksem.
+F 
+Drobnoziarnistość semafora jest większa od muteksa.
+P
+Muteks jest to do użycia przez użytkownika program, jak i system operacyjny.
+F
+Muteks może zastąpić blokadę zapisu i odczytu.
+P
+Zmienna warunkowa służy do przesyłania danych oczekującym na niej wątkom lub procesom.
+F
+Muteks może być użyty do sygnalizacji gotowości danych przy komunikacji przez zmienne/pamięć globalną.
+F
+Zmienna warunkowa pozwala wątkom komunikującym się przez pamięć wspólną na sprawdzanie warunków logicznych.
+F
+Odblokowanie muteksa umożliwia wykonanie przez wątki krytycznej sekcji programu.
+P
+Operacja dekrementacji semafora jest możliwa bez czekania 
+F
+Próba zapisu na potoku zawsze kończy się sukcesem lub czeka gdy potok jest pełny
+?
+Próba zapisu na pełnym potoku zawsze kończy się niepowodzeniem
+?
+Dane są zawsze odczytywane z pamięci wspólnej w tej samej kolejności, w jakiej zostały zapisane
+?
+Wielkość bufora danych zapisanych do potoku pojedynczym wywołaniem write() jest ograniczona wielkością potoku
+?
+Zagadnienie ograniczonego bufora dotyczy przesyłania przez bufor większej ilości danych niż wynosi jego pojemność
+?
+Dane są zawsze odczytywane z potoku w tej samej kolejności, w jakiej zostały zapisane
+P
+Jeden proces może zawierać tylko jeden wątek lub proces może składać się z kilku wątków
+P
+Przejście do stanu oczekiwania blokuje równoległość wątków jądra
+F
+Bariera umożliwia wstrzymanie wykonywania wątku w celu zapewnienia mu wyłącznego dostępu do jakiegoś zasobu
+?
+Zmienna warunkowa służy do warunkowego wykonania sekcji programu przez wątki i procesy
+F
+Wyścigi mają miejsce, kiedy dwa równoległe wątki wspólnie powodują błąd w dostępie do wspólnej pamięci
+?
+Zmienna warunkowa pozwala wątkom komunikującym się przez pamięć wspólna na sprawdzenie warunków logicznych
+?
+Model wątków daje większa współbieżność działania programów w porównaniu z modelem procesów
+?
+Aplikacja współbieżna zbudowana z wątków będzie działać ogólnie szybciej niż gdyby była zbudowana z procesów.
+?
+Dla wątków jądra, przejście jednego wątku do stanu oczekiwania blokuje równoległość pozostałych wątków.
+F
+Funkcje generujące efekty globalne mogą być bez ograniczeń używane w programach z wątkami.
+F
+Obsługa sygnałów w programach wielowątkowych wymaga innego podejścia niż w programach bez wątków.
+P
+Obsługa wątków użytkownika (tworzenie, przełączanie) typowo trwa dłużej niż obsługa wątków jądra.
+F
+Pthread prezentuje model wątków łączący model wątków użytkownika z modelem wątków jądra.
+P
+Sygnalizacja błędów przez funkcje systemowe POSIX wymaga specjalnej obsługi w programach wielowątkowych.
+P
+Tworzenie nowych wątków jest szybsze niż tworzenie nowych procesów.
+P
+Tworzenie podprocesu funkcją fork w procesie wielowątkowym zawsze tworzy nowy proces wielowątkowy.
+F
+Wątki użytkownika można stosować w systemach w ogóle nie wspierających wątków.
+P
+Wątki użytkownika w ramach jednego procesu mogą jednocześnie wykonywać się  na różnych procesorach/rdzeniach komputera.
+F
+Wszystkie wątki w ramach jedynego procesu mają jeden wspólny stos obliczeniowy.
+?
+Wszystkie wątki w ramach jednego procesu mają wspólną przestrzeń adresową.
+?
+Komunikacja wątków przez zmienne globalne jest z reguły szybsza niż komunikacja procesów przez pamięć wspólną.
+?
+Funkcje systemowe generujące efekty globalne mogą prowadzić do powstawania błędów w programach z wątkami.
+?
+Wykonywanie wątków użytkownika jest typowo szybsze niż wątków jądra.
+?
+Wątki jądra w ramach jednego procesu mogą jednocześnie wykonywać się na różnych procesorach/rdzeniach komputera.
+?
+Zmienna warunkowa służy do sygnalizacji spełnienia warunków oczekującym na niej wątkom lub procesom
+P
+Wprowadzenie ochrony sekcji krytycznej muteksem może wydłużyć czas działania programu
+P
+Zwiększanie drobnoziarnistości synchronizacji prowadzi do zmniejszenia jego równoległości
+F
+Wprowadzenie ochrony sekcji krytycznej muteksem umożliwia współbieżność jej wykonania
+F
+Do synchronizacji wielu wątków komunikujących się przez pamięć globalną, pojedynczy muteks nie jest wystarczający
+F
+Oczekiwanie na zmiennej warunkowej wymaga wcześniejszego zablokowania stowarzyszonego muteksu
+P
+Zmienna warunkowa pozwala zastąpić muteks dla zapewnienia wyłączności dostępu do sekcji krytycznej
+F
+Mutex pozwala implementować większą równoległość obliczeniową od blokady zapisu i odczytu
+F
+Mutex może być użyty do zabezpieczenia równolegle wykonywanych operacji przed wyścigami
+P
+Sekcją krytyczną nazywamy fragment programu, wykonujący na danych globalnych operacje mogące przy współbieżności prowadzić do wyścigów
+P
+Ochrona sekcji krytycznej muteksem polega na zwolnieniu muteksu na czas jej wykonywania
+F
+Mutex jest zmienną logiczną, której funkcje obsługi muszą być implementowane przez system operacyjny
+P
+Semafor jest szczególnym przypadkiem muteksu
+F
+Wyścigi mają miejsce, kiedy program ma błąd generujący błędne dane w pamięci i zaczyna tworzyć wątki
+F 
+Sekcją krytyczną nazywamy fragment programu wykonujący operacje na danych globalnych, mogący prowadzić do wyścigów przy wykonywaniu 
+P
+Do synchronizacji dwóch wątków wykonujących się przez pamięć globalną, muteks jest wystarczającym elementem 
+P
+Muteks jest mechanizmem synchronizacji bardziej ogólnym niż blokady 
+F
+Barierę można wykorzystać do jednoczesnego uruchamiania kilku wątków lub procesów 
+P
+Ochrona sekcji krytycznej programu muteksem polega na uruchomieniu muteksu na czas wykonywania sekcji 
+P
+Wprowadzenie ochrony sekcji krytycznej programu muteksem z reguły skraca czas jego wykonania 
+F
+Muteks jest zmienną logiczną, której funkcje obsługi muszą być implementowane przez program użytkownika
+F
+Muteks pozwala implementować bardziej drobnoziarnistą równoległość obliczeń niż blokady zapisu i odczytu 
+F
+Muteks jest mechanizmem synchronizacji bardziej ogólnym niż blokady zapisu i odczytu 
+F
+Muteks moze byc uzyty do synchronizacji komunikacji przez zmienne/pamięć globalna
+P
+Muteks może zastąpić blokadę zapisu i odczytu 
+P
+Muteks jest do użycia przez użytkownika, program jak i system operacyjny
+F
+Muteks moze byc uzyty do sygnalizacji gotowości danych przy komunikacji przez zmienne/ pamięć globalna
+F
+Barierę można wykorzystać do synchronizacji uruchomienia zestawu wątków lub procesów
+P
+Zmienna warunkowa przesyła dane 
+F
+Zmienna warunkowa służy do przesyłania danych oczekującym na niej wątkom lub procesom 
+F
+Odblokowanie muteksu umożliwia wykonanie przez watki krytycznej sekcji programu 
+P
+Semafor można zastąpić muteksem
+F
+Zwiększenie drobnoziarnistości synchronizacji prowadzi do zmniejszenia jego równoległości
+?
+Ochrona sekcji krytycznej muteksem polega na zablokowaniu muteksu na czas jej wykonania
+P
+Mutex pozwala implementować większą równoległość obliczeń niż blokady zapisu i odczytu
+F
+Zwiększanie drobnoziarnistości synchronizacji może zwiększyć czas wykonania całego programu.
+P
+Wprowadzenie ochrony sekcji krytycznej muteksem z reguły skraca czas wykonania programu.
+F
+Mutex jest zmienną logiczną, której funkcje obsługi muszą być implementowane przez program użytkownika.
+F
+Barierę można wykorzystać do jednoczesnego uruchomienia zestawu wątków lub procesów.
+P
+Zajęcie muteksu jest równoważne zajęciu blokady zapisu i odczytu do odczytu
+F
+Do synchronizacji wielu wątków komunikujących się przez pamięć globalną, mutex jest wystarczającym elementem.
+P
+Zmienna warunkowa służy do warunkowania wykonania sekcji krytycznej przez wątki lub procesy.
+?
+Mutex jest szczególnym przypadkiem semafora
+P
+Algorytm strusia pozwala na zapobieganie zakleszczeniom (wykrywanie i eliminację zakleszczeń).
+F
+Algorytm bankiera służy do unikania zakleszczeń.
+P
+Algorytm wykrywania zakleszczeń należy wykonywać przy każdym nowym żądaniu alokacji zasobu.
+F
+Algorytm wykrywania zakleszczeń znajduje procesy, które mogą zakończyć się z wykorzystaniem dostępnych zasobów.
+P
+Celem numerowania zasobów jest zapewnienie, by ważniejsze zasoby były przydzielane najpierw.
+F
+Cykl skierowany na grafie alokacji zasobów wskazuje zakleszczenie pomiędzy procesami.
+P
+Graf ściśle związany z występowaniem zakleszczeń jest skierowany.	
+P
+Graf alokacji zasobów pozwala przedstawić zasoby przydzielone procesom.
+P	
+Graf alokacji zasobów pozwala przedstawić zasoby zwolnione przez procesy.
+F
+Numerowanie zasobów pozwala na zapobieganie zakleszczeniom (unikanie zakleszczeń).
+P
+Stan niebezpieczny systemu oznacza, że w wyniku dalszej pracy procesów na pewno dojdzie do zakleszczenia.
+F
+Stan niebezpieczny to taki stan, w którym występują zakleszczenia.
+F
+Unikanie zakleszczeń eliminuje warunki konieczne zakleszczenia i gwarantuje, że ono nie powstanie.
+F
+Unikanie zakleszczeń polega na analizowaniu warunków przydziału zasobu, aby nie dopuścić do powstania zakleszczenia.
+P
+Usuwanie zakleszczeń można realizować przez zabijanie procesów.
+P
+Usuwanie zakleszczeń można realizować przez przydzielenie dodatkowych zasobów.
+?
+W systemie stosującym wywłaszczanie zasobów nie może dojść do zakleszczenia.
+P
+Warunkiem powstania zakleszczenia jest obsługa wywłaszczania zasobów przez system.
+F
+Warunkiem powstania zakleszczenia jest cykliczne oczekiwanie na przydział zasobów przez zbiór procesów.
+P
+Wykrywanie zakleszczenia polega na dopuszczeniu do powstania zakleszczenia i podjęciu próby jego eliminacji.
+P
+Zakleszczenie powstaje w zbiorze procesów, gdy każdy z nich oczekuje na jakiś zasób, na który oczekuje również inny proces ze zbioru.
+F
+Przy stosowaniu metody unikania, nie wszystkie warunki konieczne powstawania zakleszczeń są prawdziwe.
+F
+Przy stosowaniu metody zapobiegania, wszystkie warunki konieczne do powstania zakleszczeń są prawdziwe.
+F
+Zapobieganie zakleszczeniom polega na analizowaniu warunków przydziału zasobu, aby nie dopuścić do powstania zakleszczenia.
+F
+Zapobieganie zakleszczeniom eliminuje warunki konieczne zakleszczenia i gwarantuje, że ono nie powstanie.
+P
+Celem numerowania zasobów jest zapewnienie ustalonej kolejności przydziału zasobów, aby uniknąć pętli
+P
+Algorytm bankiera służy do sprawdzania, czy zbiór procesów da się wykonać z uniknięciem stanów niebezpiecznych.
+?
+Narzut czasowy na przełączanie kontekstu zależy od stosowanej przez system operacyjny strategii szeregowania. 
+P
+Strategia planowania FCFS (First-Come-First-Served) dobrze nadaje się do planowania zadań tła (obliczeniowych). 
+P
+Przełączanie kontekstu jest operacją wykonywaną przez proces po otrzymaniu przezeń sygnału. 
+F
+Strategia planowania SJF (Shortest-Jobtime-First) dobrze nadaje się do planowania zadań obliczeniowych. 
+P
+Zastosowanie algorytmu planowania FCFS (First-Come-First-Served) wymaga znajomości czasu obliczeń (fazy procesora) planowanych zadań.
+F
+Sprawiedliwość w planowaniu procesów oznacza przydzielanie wszystkim zadaniom procesora zgodnie z realizowanym algorytmem planowania. 
+F
+Przełączanie kontekstu jest operacją wykonywaną przez dyspozytora (dispatcher) przy realizacji planowania procesów.
+P
+W zamkniętych systemach z planowaniem priorytetowym można stosować statyczny przydział priorytetów 
+P 
+Operacje I/O sterowane przerwaniami są z reguły korzystniejsze niż programowane operacje I/O. 
+P
+Strategia planowania RR (Round Robin) dokonuje wywłaszczeń co kwant czasu. 
+P
+Planista odpowiada za wykonywanie wyroków ekspedytora.
+F 
+Operacje I/O sterowanie przerwaniami sa ogólnie szybsze niż programowane operacje I/O 
+?
+Strategia planowania RR (Round Robin) nadaje się do planowania zadań interakcyjnych. 
+P
+Sprawiedliwość w planowaniu procesów oznacza zapewnienie równego dostępu do procesora wszystkim zadaniom. 
+P
+Strategia planowania SJF (Shortest-jobtime-first) ogólnie zapewnia "sprawiedliwość" wykonywania procesów. 
+F 
+Kwant czasu planowania rotacyjnego RR powinien być większy niż czas przełączania kontekstu. 
+P
+Przełączanie kontekstu jest operacja wykonywana przez proces pragnący przejść do stanu uśpienia. 
+?
+Strategia planowania SJF (Shortest-jobtime-first) nadaje się do planowania zadań interakcyjnych.
+F
+Stratega planowania SJF (Shortest-jobtime-first) jest algorytmem wywłaszczającym 
+F
+Strategia planowania SJF (Shortest-jobtime-first) może doprowadzić do zagłodzenia pewnych procesów. 
+P
+Strategia planowania FCFS (First-Come-First-Served) może doprowadzić do zagłodzenia pewnych procesów. 
+F
+Wielopoziomowe kolejki planowania pozwalają stosować różne algorytmy planowania dla zadań interakcyjnych i obliczeniowych. 
+P
+Strategia planowania FCFS (First-Come-First-Served) ogólnie wymaga małych narzutów administracyjnych. 
+P
+Strategia planowania RR (Round-Robin) dobrze nadaje się do planowania zadań tła (obliczeniowych). 
+F
+Strategia planowania oparta na priorytetach zapewnia "sprawiedliwość" wykonywania procesów. 
+F
+Stratega planowania SJF (Shortest-jobtime-first) dokonuje wywłaszczenia gdy pojawi się zadanie o krótszym czasie wykonania. 
+F
+Stratega planowania SRTF (Shortest-Remaining-time-first) jest algorytmem wywłaszczającym. 
+P
+Ekspedytor odpowiada za wykonywanie wyroków planisty.
+F
+Strategia FCFS jest często stosowana ze względu na najkrótszy czas oczekiwania. 
+F
+Algorytm FCFS dąży do zminimalizowania ilości ruchów głowicy
+F
+W strategii RR im kwant czasu jest mniejszy w stosunku do czasu przełączeń kontekstu, tym lepiej dla globalnej wydajności systemu. 
+F
+Zwiększenie kwantu czasu może spowodować zmniejszenie strat wynikających z przełączania kontekstu 
+P
+Zagłodzenie w planowaniu procesów oznacza odbieranie jednemu procesowi przydzielonych mu wcześniej zasobów. 
+F
+Strategia planowania oparta na priorytetach może doprowadzić do zagłodzenia pewnych procesów. 
+P
+Strategia planowania RR (Round-Robin) ogólnie powoduje małe narzuty administracyjne na przełączanie kontekstu. 
+F
+Strategia planowania RR (Round-Robin) zapewnia "sprawiedliwość" wykonywania procesów. 
+P
+Optymalizacja wykorzystania procesora w planowaniu procesów normalnie powoduje zwiększenie średniego czasu oczekiwania procesów na wykonanie.
+?
+Partycjonowanie czasu pracy procesora może doprowadzić do marnowania cykli obliczeniowych podczas gdy są procesy oczekujące na obliczenia.
+P
+Wywłaszczenie jest czynnością mogącą spowodować zagłodzenie pewnych procesów w systemie
+?

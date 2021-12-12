@@ -1,0 +1,5 @@
+X001
+Zwiększenie drobnoziarnistości synchronizacji prowadzi do zmniejszenia jego równoległości
+TAK
+NIE
+BRAK ODPOWIEDZI

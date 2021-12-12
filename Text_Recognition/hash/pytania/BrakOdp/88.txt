@@ -1,0 +1,5 @@
+X001
+Wyścigi mają miejsce, kiedy dwa równoległe wątki wspólnie powodują błąd w dostępie do wspólnej pamięci
+TAK
+NIE
+BRAK ODPOWIEDZI

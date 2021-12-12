@@ -1,0 +1,5 @@
+X010
+Każdy wątek, podobnie jak proces, ma swoją oddzielną przestrzeń adresową.
+TAK
+NIE
+BRAK ODPOWIEDZI

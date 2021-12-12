@@ -1,0 +1,5 @@
+X001
+Programowane operacje I/O z reguły powodują mniejsze obciążenie procesora niż operacje I/O sterowane przerwaniami
+TAK
+NIE
+BRAK ODPOWIEDZI

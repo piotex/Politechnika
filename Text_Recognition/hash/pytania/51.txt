@@ -1,0 +1,5 @@
+X010
+Potoki są modelem komunikacji międzyprocesowej typu rozgłaszania, czyli jeden-do-wielu.
+TAK
+NIE
+BRAK ODPOWIEDZI

@@ -1,0 +1,5 @@
+X001
+Tik jest jednostką w jakiej mierzy czas zegar procesora?
+TAK
+NIE
+BRAK ODPOWIEDZI

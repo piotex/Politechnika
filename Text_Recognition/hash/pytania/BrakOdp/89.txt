@@ -1,0 +1,5 @@
+X001
+Zmienna warunkowa pozwala wątkom komunikującym się przez pamięć wspólna na sprawdzenie warunków logicznych
+TAK
+NIE
+BRAK ODPOWIEDZI

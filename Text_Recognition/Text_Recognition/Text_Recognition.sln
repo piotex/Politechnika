@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Text_Recognition", "Text_Recognition\Text_Recognition.csproj", "{0691F2DB-2A06-44A2-9677-657FB9DCA3CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0691F2DB-2A06-44A2-9677-657FB9DCA3CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0691F2DB-2A06-44A2-9677-657FB9DCA3CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0691F2DB-2A06-44A2-9677-657FB9DCA3CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0691F2DB-2A06-44A2-9677-657FB9DCA3CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F2594E40-4677-4D3B-85E1-F90F6FC3CAB7}
+	EndGlobalSection
+EndGlobal

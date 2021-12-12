@@ -1,0 +1,5 @@
+X100
+Dane są zawsze odczytywane z potoku w tej samej kolejności, w jakiej zostały zapisane
+TAK
+NIE
+BRAK ODPOWIEDZI

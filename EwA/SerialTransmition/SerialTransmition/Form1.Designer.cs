@@ -38,6 +38,8 @@ namespace SerialTransmition
             this.textBox_Get = new System.Windows.Forms.TextBox();
             this.textBox_Send = new System.Windows.Forms.TextBox();
             this.button_Send = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.button_clearAll = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -124,28 +126,49 @@ namespace SerialTransmition
             // 
             // textBox_Send
             // 
-            this.textBox_Send.Location = new System.Drawing.Point(12, 468);
-            this.textBox_Send.Multiline = true;
+            this.textBox_Send.Location = new System.Drawing.Point(53, 474);
             this.textBox_Send.Name = "textBox_Send";
             this.textBox_Send.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.textBox_Send.Size = new System.Drawing.Size(675, 49);
+            this.textBox_Send.Size = new System.Drawing.Size(548, 23);
             this.textBox_Send.TabIndex = 7;
             // 
             // button_Send
             // 
-            this.button_Send.Location = new System.Drawing.Point(693, 467);
+            this.button_Send.Location = new System.Drawing.Point(607, 472);
             this.button_Send.Name = "button_Send";
-            this.button_Send.Size = new System.Drawing.Size(200, 50);
+            this.button_Send.Size = new System.Drawing.Size(118, 24);
             this.button_Send.TabIndex = 8;
             this.button_Send.Text = "Send";
             this.button_Send.UseVisualStyleBackColor = true;
             this.button_Send.Click += new System.EventHandler(this.button_Send_Click);
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label3.Location = new System.Drawing.Point(26, 465);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(21, 32);
+            this.label3.TabIndex = 9;
+            this.label3.Text = "!";
+            // 
+            // button_clearAll
+            // 
+            this.button_clearAll.Location = new System.Drawing.Point(775, 474);
+            this.button_clearAll.Name = "button_clearAll";
+            this.button_clearAll.Size = new System.Drawing.Size(118, 24);
+            this.button_clearAll.TabIndex = 10;
+            this.button_clearAll.Text = "Clear All";
+            this.button_clearAll.UseVisualStyleBackColor = true;
+            this.button_clearAll.Click += new System.EventHandler(this.button_clearAll_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(905, 524);
+            this.ClientSize = new System.Drawing.Size(905, 508);
+            this.Controls.Add(this.button_clearAll);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.button_Send);
             this.Controls.Add(this.textBox_Send);
             this.Controls.Add(this.textBox_Get);
@@ -174,6 +197,8 @@ namespace SerialTransmition
         private System.Windows.Forms.TextBox textBox_Get;
         private System.Windows.Forms.TextBox textBox_Send;
         private System.Windows.Forms.Button button_Send;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button button_clearAll;
     }
 }
 

@@ -1,0 +1,5 @@
+X010
+Wątki użytkownika mogą być wykonywane na wielu procesorach/rdzeniach tak samo, jak wątki jądra. 
+TAK
+NIE
+BRAK ODPOWIEDZI

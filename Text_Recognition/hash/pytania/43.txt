@@ -1,0 +1,5 @@
+X010
+Dane muszą być odczytywane z kolejki komunikatów POSIX w tej samej kolejności, w jakiej były zapisane.
+TAK
+NIE
+BRAK ODPOWIEDZI

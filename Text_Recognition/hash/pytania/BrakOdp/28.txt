@@ -1,0 +1,5 @@
+X001
+Zasoby w systemie unix istnieją w celu ułatwienia zarządzania elementami systemu w odniesieniu do procesów
+TAK
+NIE
+BRAK ODPOWIEDZI

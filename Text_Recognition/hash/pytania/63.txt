@@ -1,0 +1,5 @@
+X010
+Barierę można wykorzystać do zablokowania wątkowi lub procesowi dostępu do jakiegoś zasobu.
+TAK
+NIE
+BRAK ODPOWIEDZI

@@ -1,0 +1,5 @@
+X001
+Wszystkie wątki w ramach jedynego procesu mają jeden wspólny stos obliczeniowy.
+TAK
+NIE
+BRAK ODPOWIEDZI

@@ -1,0 +1,5 @@
+X010
+Komunikacja przez pamięć wspólną jest możliwa za pomocą specjalnych operacji wejścia/wyjścia.
+TAK
+NIE
+BRAK ODPOWIEDZI

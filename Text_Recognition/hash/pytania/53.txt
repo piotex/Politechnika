@@ -1,0 +1,5 @@
+X010
+Próba odczytu z potoku zawsze zwraca natychmiast niepusty bufor danych, lub czeka, gdy danych brak.
+TAK
+NIE
+BRAK ODPOWIEDZI

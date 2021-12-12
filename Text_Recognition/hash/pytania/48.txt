@@ -1,0 +1,5 @@
+X100
+Operacja inkrementacji semafora jest możliwa bez czekania.
+TAK
+NIE
+BRAK ODPOWIEDZI

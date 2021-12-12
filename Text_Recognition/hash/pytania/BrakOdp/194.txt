@@ -1,0 +1,5 @@
+X001
+Przełączanie kontekstu jest operacja wykonywana przez proces pragnący przejść do stanu uśpienia. 
+TAK
+NIE
+BRAK ODPOWIEDZI

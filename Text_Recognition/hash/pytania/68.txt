@@ -1,0 +1,5 @@
+X100
+Muteks może być użyty do synchronizacji komunikacji przez zmienne/pamięć globalną.
+TAK
+NIE
+BRAK ODPOWIEDZI

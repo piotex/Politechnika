@@ -1,0 +1,5 @@
+X001
+Próba zapisu na potoku zawsze kończy się sukcesem lub czeka gdy potok jest pełny
+TAK
+NIE
+BRAK ODPOWIEDZI

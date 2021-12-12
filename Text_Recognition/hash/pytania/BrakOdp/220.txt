@@ -1,0 +1,5 @@
+X001
+Głównym systemem odmierzającym czas w systemie jest RTC.
+TAK
+NIE
+BRAK ODPOWIEDZI

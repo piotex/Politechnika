@@ -1,0 +1,5 @@
+X001
+Problem błędu strony jest rozwiązywany przez wysłanie błędnej strony do obszaru wymiany na dysku
+TAK
+NIE
+BRAK ODPOWIEDZI

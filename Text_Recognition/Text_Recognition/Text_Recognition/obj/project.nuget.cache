@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "tiTR7gvzLf8xpsiENeIqkbqZ5n2FoqYHyhIpXLsnkB89XzgR9Ped8hpaKo//7LSSORbY7XAFuVO0RR9Zl0ZQqA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\pkubo\\OneDrive\\Dokumenty\\GitHub\\Politechnika\\Text_Recognition\\Text_Recognition\\Text_Recognition\\Text_Recognition.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pkubo\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
+    "C:\\Users\\pkubo\\.nuget\\packages\\tesseract\\4.1.1\\tesseract.4.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,5 @@
+X001
+Model wątków daje większa współbieżność działania programów w porównaniu z modelem procesów
+TAK
+NIE
+BRAK ODPOWIEDZI

@@ -1,0 +1,5 @@
+X001
+Procesy tworzone są w systemach operacyjnych w celu zwiększenia efektywności obliczeń.
+TAK
+NIE
+BRAK ODPOWIEDZI

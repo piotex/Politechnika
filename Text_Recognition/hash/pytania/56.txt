@@ -1,0 +1,5 @@
+X100
+Wielkość bufora danych odczytanych z potoku pojedynczym wywołaniem "read()" jest ograniczona wielkością potoku.
+TAK
+NIE
+BRAK ODPOWIEDZI

@@ -1,0 +1,5 @@
+X001
+Wielkość bufora danych zapisanych do potoku pojedynczym wywołaniem write() jest ograniczona wielkością potoku
+TAK
+NIE
+BRAK ODPOWIEDZI

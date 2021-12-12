@@ -1,0 +1,5 @@
+X001
+Algorytm bankiera służy do sprawdzania, czy zbiór procesów da się wykonać z uniknięciem stanów niebezpiecznych.
+TAK
+NIE
+BRAK ODPOWIEDZI

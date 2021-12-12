@@ -1,0 +1,5 @@
+X001
+Algorytm SCAN obsługuje żądania dostępu podczas ruchu głowicy w obie strony
+TAK
+NIE
+BRAK ODPOWIEDZI

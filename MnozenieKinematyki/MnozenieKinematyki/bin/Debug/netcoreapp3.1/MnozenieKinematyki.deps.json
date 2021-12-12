@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "MnozenieKinematyki/1.0.0": {
+        "runtime": {
+          "MnozenieKinematyki.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MnozenieKinematyki/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

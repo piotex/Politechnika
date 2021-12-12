@@ -1,0 +1,5 @@
+X001
+Próba zapisu na pełnym potoku zawsze kończy się niepowodzeniem
+TAK
+NIE
+BRAK ODPOWIEDZI

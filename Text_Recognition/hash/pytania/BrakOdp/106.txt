@@ -1,0 +1,5 @@
+X001
+Wykonywanie wątków użytkownika jest typowo szybsze niż wątków jądra.
+TAK
+NIE
+BRAK ODPOWIEDZI

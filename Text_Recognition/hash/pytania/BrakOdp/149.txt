@@ -1,0 +1,5 @@
+X001
+Zmienna warunkowa służy do warunkowania wykonania sekcji krytycznej przez wątki lub procesy.
+TAK
+NIE
+BRAK ODPOWIEDZI

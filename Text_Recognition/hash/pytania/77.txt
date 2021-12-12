@@ -1,0 +1,5 @@
+X010
+Operacja dekrementacji semafora jest możliwa bez czekania 
+TAK
+NIE
+BRAK ODPOWIEDZI

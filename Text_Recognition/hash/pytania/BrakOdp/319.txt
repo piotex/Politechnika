@@ -1,0 +1,5 @@
+X001
+Algorytmy szeregowania operacji dysku mają na celu optymalizację t opóźnienia rotacyjnego dysku
+TAK
+NIE
+BRAK ODPOWIEDZI

@@ -1,0 +1,5 @@
+X001
+Operacje RAID-0 są szybsze niż w RAID-1 przy zastosowaniu takich samych dysków
+TAK
+NIE
+BRAK ODPOWIEDZI

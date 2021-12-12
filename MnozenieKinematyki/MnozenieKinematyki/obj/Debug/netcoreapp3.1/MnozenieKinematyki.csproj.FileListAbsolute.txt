@@ -1,0 +1,15 @@
+C:\Users\pkubo\OneDrive\Dokumenty\GitHub\Politechnika\MnozenieKinematyki\MnozenieKinematyki\bin\Debug\netcoreapp3.1\MnozenieKinematyki.exe
+C:\Users\pkubo\OneDrive\Dokumenty\GitHub\Politechnika\MnozenieKinematyki\MnozenieKinematyki\bin\Debug\netcoreapp3.1\MnozenieKinematyki.deps.json
+C:\Users\pkubo\OneDrive\Dokumenty\GitHub\Politechnika\MnozenieKinematyki\MnozenieKinematyki\bin\Debug\netcoreapp3.1\MnozenieKinematyki.runtimeconfig.json
+C:\Users\pkubo\OneDrive\Dokumenty\GitHub\Politechnika\MnozenieKinematyki\MnozenieKinematyki\bin\Debug\netcoreapp3.1\MnozenieKinematyki.runtimeconfig.dev.json
+C:\Users\pkubo\OneDrive\Dokumenty\GitHub\Politechnika\MnozenieKinematyki\MnozenieKinematyki\bin\Debug\netcoreapp3.1\MnozenieKinematyki.dll
+C:\Users\pkubo\OneDrive\Dokumenty\GitHub\Politechnika\MnozenieKinematyki\MnozenieKinematyki\bin\Debug\netcoreapp3.1\MnozenieKinematyki.pdb
+C:\Users\pkubo\OneDrive\Dokumenty\GitHub\Politechnika\MnozenieKinematyki\MnozenieKinematyki\obj\Debug\netcoreapp3.1\MnozenieKinematyki.csproj.AssemblyReference.cache
+C:\Users\pkubo\OneDrive\Dokumenty\GitHub\Politechnika\MnozenieKinematyki\MnozenieKinematyki\obj\Debug\netcoreapp3.1\MnozenieKinematyki.Form1.resources
+C:\Users\pkubo\OneDrive\Dokumenty\GitHub\Politechnika\MnozenieKinematyki\MnozenieKinematyki\obj\Debug\netcoreapp3.1\MnozenieKinematyki.csproj.GenerateResource.cache
+C:\Users\pkubo\OneDrive\Dokumenty\GitHub\Politechnika\MnozenieKinematyki\MnozenieKinematyki\obj\Debug\netcoreapp3.1\MnozenieKinematyki.AssemblyInfoInputs.cache
+C:\Users\pkubo\OneDrive\Dokumenty\GitHub\Politechnika\MnozenieKinematyki\MnozenieKinematyki\obj\Debug\netcoreapp3.1\MnozenieKinematyki.AssemblyInfo.cs
+C:\Users\pkubo\OneDrive\Dokumenty\GitHub\Politechnika\MnozenieKinematyki\MnozenieKinematyki\obj\Debug\netcoreapp3.1\MnozenieKinematyki.csproj.CoreCompileInputs.cache
+C:\Users\pkubo\OneDrive\Dokumenty\GitHub\Politechnika\MnozenieKinematyki\MnozenieKinematyki\obj\Debug\netcoreapp3.1\MnozenieKinematyki.dll
+C:\Users\pkubo\OneDrive\Dokumenty\GitHub\Politechnika\MnozenieKinematyki\MnozenieKinematyki\obj\Debug\netcoreapp3.1\MnozenieKinematyki.pdb
+C:\Users\pkubo\OneDrive\Dokumenty\GitHub\Politechnika\MnozenieKinematyki\MnozenieKinematyki\obj\Debug\netcoreapp3.1\MnozenieKinematyki.genruntimeconfig.cache

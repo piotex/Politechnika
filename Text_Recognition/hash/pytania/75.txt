@@ -1,0 +1,5 @@
+X010
+Zmienna warunkowa pozwala wątkom komunikującym się przez pamięć wspólną na sprawdzanie warunków logicznych.
+TAK
+NIE
+BRAK ODPOWIEDZI

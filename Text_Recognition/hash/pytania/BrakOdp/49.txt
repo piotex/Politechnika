@@ -1,0 +1,5 @@
+X001
+Operacje I/O na potoku wykonuje się funkcjami open/read/write, jak dla plików.
+TAK
+NIE
+BRAK ODPOWIEDZI

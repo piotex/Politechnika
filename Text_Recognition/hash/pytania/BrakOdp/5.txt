@@ -1,0 +1,5 @@
+X001
+W skład jądra systemu operacyjnego wchodzą sterowniki urządzeń i moduły realizujące wywołania systemowe. 
+TAK
+NIE
+BRAK ODPOWIEDZI

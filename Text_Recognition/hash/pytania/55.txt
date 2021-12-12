@@ -1,0 +1,5 @@
+X100
+Sumaryczna ilość danych przesyłanych przez potok jest nieograniczona.
+TAK
+NIE
+BRAK ODPOWIEDZI

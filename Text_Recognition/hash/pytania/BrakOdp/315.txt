@@ -1,0 +1,5 @@
+X001
+Algorytmy szeregowania operacji dyskowych mają głównie na celu optymalizację czasu przesunięcia głowicy dysku
+TAK
+NIE
+BRAK ODPOWIEDZI

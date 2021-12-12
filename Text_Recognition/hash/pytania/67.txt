@@ -1,0 +1,5 @@
+X100
+Muteks jest zmienną logiczną, której obsługa musi być realizowana przez system operacyjny.
+TAK
+NIE
+BRAK ODPOWIEDZI

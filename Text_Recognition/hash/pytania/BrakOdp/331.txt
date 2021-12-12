@@ -1,0 +1,5 @@
+X001
+W systemach wejścia / wyjścia: bezpośredni dostęp do pamięci : główny procesor wykonuje operacje I/O, a dedykowany Procesor DMA tylko inicjuje.
+TAK
+NIE
+BRAK ODPOWIEDZI

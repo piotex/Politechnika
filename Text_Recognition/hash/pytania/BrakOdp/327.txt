@@ -1,0 +1,5 @@
+X001
+Algorytm SSTF najpierw obsługuje żądania dostępu otrzymane jako ostatnie
+TAK
+NIE
+BRAK ODPOWIEDZI

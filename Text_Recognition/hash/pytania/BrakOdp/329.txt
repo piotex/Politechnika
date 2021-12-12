@@ -1,0 +1,5 @@
+X001
+Algorytm C-SCAN dokonuje operacji zapisu i odczytu podczas ruchu głowicy w obie strony
+TAK
+NIE
+BRAK ODPOWIEDZI

@@ -1,0 +1,5 @@
+X100
+Komunikacja przez pamięć wspólną wymaga zewnętrznej synchronizacji przesyłania.
+TAK
+NIE
+BRAK ODPOWIEDZI

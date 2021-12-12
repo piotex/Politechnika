@@ -1,0 +1,5 @@
+X001
+Operacje I/O sterowane przerwaniami sa ogolnie szybsze niż programowane operacje I/O.
+TAK
+NIE
+BRAK ODPOWIEDZI

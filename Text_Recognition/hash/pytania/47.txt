@@ -1,0 +1,5 @@
+X010
+Komunikacja przez potok wymaga zewnętrznej synchronizacji przesyłania.
+TAK
+NIE
+BRAK ODPOWIEDZI
